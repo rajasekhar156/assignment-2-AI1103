@@ -138,33 +138,33 @@
 	QUESTION:\\
 	If P and Q are two random events, then the
 	following is TRUE:\\ \\
-	(A) Independence of P and Q implies that $\pr{P \cap Q}$ $=$ 0 \\ \\
-	(B) $\pr{P \cup Q}$ $\geq$ $\pr{P} + \pr{Q}$ \\ \\
+	(A) Independence of P and Q implies that $\pr{PQ}$ $=$ 0 \\ \\
+	(B) $\pr{P+Q}$ $\geq$ $\pr{P} + \pr{Q}$ \\ \\
 	(C) If P and Q are mutually exclusive, then they must be independent.\\ \\
-	(D) $\pr{P \cap Q} \leq \pr{P}$\\ \\
+	(D) $\pr{P Q} \leq \pr{P}$\\ \\
 	ANSWER:\\
 	(A) Independence of P and Q means if P happens, then outcome of Q won't be affected by that.\\
 	so \begin{align}
 		\pr{P/Q} &= \pr{P} \\
-		\frac{\pr{P\cap Q}}{\pr{Q}} &= \pr{P} \\
-		\implies  \pr{P \cap Q} &= \pr{P}.\pr{Q}
+		\frac{\pr{P Q}}{\pr{Q}} &= \pr{P} \\
+		\implies  \pr{P Q} &= \pr{P}.\pr{Q}
 	\end{align}
 	This is what we can say hence (A) is wrong \\ \\
 	(B)As \begin{align}
-		\pr{P \cup Q} &= \pr{P} + \pr{Q} -\pr{P \cap Q} \\
-		\pr{P \cup Q} + \pr{P \cap Q} &= \pr{P} + \pr{Q} \\
-		\pr{P \cap Q} &\geq 0 \\
-		\implies \pr{P} + \pr{Q} &\geq \pr{P \cup Q}
+		\pr{P + Q} &= \pr{P} + \pr{Q} -\pr{P Q} \\
+		\pr{P + Q} + \pr{P Q} &= \pr{P} + \pr{Q} \\
+		\pr{P Q} &\geq 0 \\
+		\implies \pr{P} + \pr{Q} &\geq \pr{P + Q}
 	\end{align}
 	Hence (B) is also wrong \\ \\  \\
 	(C) When P and Q are mutually exclusive, then either P occurs or Q occurs but not both simultaneously. So if P happens, chance of Q happening gets ruled out and vice-versa. Hence, mutually exclusive events are dependent.\\Hence (C) is also wrong\\ \\
 	(D)As \begin{align}
-		\pr{Q/P} &= \frac{\pr{P \cap Q}}{\pr{P}} 
+		\pr{Q/P} &= \frac{\pr{P Q}}{\pr{P}} 
 	\end{align}
 	And \begin{align}
 		\pr{Q/P} &\leq 1\\
-		\frac{\pr{P \cap Q}}{\pr{P}} &\leq 1\\ 
-		\pr{P \cap Q} &\leq \pr{P}
+		\frac{\pr{P Q}}{\pr{P}} &\leq 1\\ 
+		\pr{P Q} &\leq \pr{P}
 	\end{align}
 	Hence (D) is correct.
 	
